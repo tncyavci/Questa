@@ -1,0 +1,21 @@
+/build
+/release
+/debug
+/benchmark/build
+*.apk
+*.aab
+output.json
+output-metadata.json
+
+# Firebase config files
+/src/debug/google-services.json
+/src/release/google-services.json
+
+# Local test reports
+/test-results
+
+# Generated files
+*.iml
+.gradle
+/build
+/captures

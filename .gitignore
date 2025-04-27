@@ -1,0 +1,102 @@
+# ----------------------------------
+# Android Build Artifacts
+# ----------------------------------
+*.apk
+*.aab
+*.aar
+*.ap_
+*.dex
+bin/
+gen/
+out/
+build/
+*/build/
+
+# ----------------------------------
+# Gradle Files
+# ----------------------------------
+.gradle/
+local.properties
+
+# ----------------------------------
+# Android Studio Specific
+# ----------------------------------
+.idea/
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+.idea/caches
+.idea/modules.xml
+.idea/navEditor.xml
+.navigation/
+captures/
+
+# ----------------------------------
+# External Native Builds
+# ----------------------------------
+.externalNativeBuild/
+.cxx/
+
+# ----------------------------------
+# Proguard / Lint / Profiling / Logs
+# ----------------------------------
+proguard/
+*.log
+*.hprof
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+# ----------------------------------
+# Firebase & Google Services
+# ----------------------------------
+google-services.json
+app/GoogleService-Info.plist
+
+# ----------------------------------
+# Fastlane
+# ----------------------------------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/readme.md
+
+# ----------------------------------
+# Secrets / Keystore
+# ----------------------------------
+*.jks
+*.keystore
+/release/*.properties
+/release/*.jks
+/release/*.keystore
+/release/*.asc
+/release/*.key
+secrets.xml
+secrets.properties
+
+# ----------------------------------
+# Test Files
+# ----------------------------------
+/app/src/androidTest/
+/app/src/test/
+
+# ----------------------------------
+# Version Control Metadata
+# ----------------------------------
+vcs.xml
+
+# ----------------------------------
+# Other (Eclipse, Mac, Windows)
+# ----------------------------------
+.project
+.settings
+.classpath
+.DS_Store
+Thumbs.db
